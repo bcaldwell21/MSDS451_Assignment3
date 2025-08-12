@@ -5,9 +5,9 @@ Automated Algorithmic Trading on XOM (2010–2025)
 This project implements an automated trading system for ExxonMobil (XOM) using multi-level predicted returns, incorporating Random Forest, LSTM, and options-based strategies. The focus is on automated trade execution, rather than predictive modeling alone, with performance evaluated via backtesting.
 
 ## Contents
-- `MSDS451_Assignment3.ipynb`: Full notebook with code, analysis, and plots  
-- `MSDS451_Assignment3.html`: HTML export of the notebook  
-- `MSDS451_Assignment3_Report.pdf`: Final research report (LaTeX-formatted)
+- `MSDS451_A3.ipynb`: Full notebook with code, analysis, and plots  
+- `MSDS451_A3.html`: HTML export of the notebook  
+- `MSDS451_A3.pdf`: Final research report (LaTeX-formatted)
 
 ## Summary of Strategies
 
@@ -15,7 +15,7 @@ This project implements an automated trading system for ExxonMobil (XOM) using m
 |---------------------------|------------------:|------------------:|-----------:|------:|-------------:|
 | Random Forest             | 38.5285×          | 27.79%            | 13.84%     | 1.84  | -33.78%      |
 | LSTM                      | 0.8993×           | -0.71%            | 9.75%      | -0.02 | -36.06%      |
-| Options/Short (Realistic) | **17,355,139,155×**| 387.10%           | 48.83%     | 3.49  | -34.76%      |
+| Options/Short (Realistic) | 17,355,139,155×| 387.10%           | 48.83%     | 3.49  | -34.76%      |
 | Options/Short (Decay)     | 0.0032×           | -32.03%           | 8.11%      | -4.72 | -99.68%      |
 | Buy & Hold                | 2.8282×           | 7.23%             | 25.01%     | 0.40  | -62.40%      |
 
