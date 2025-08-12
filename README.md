@@ -7,7 +7,7 @@ This project implements an automated trading system for ExxonMobil (XOM) using m
 ## Contents
 - `MSDS451_A3.ipynb`: Full notebook with code, analysis, and plots  
 - `MSDS451_A3.html`: HTML export of the notebook  
-- `MSDS451_A3.pdf`: Final research report (LaTeX-formatted)
+- `MSDS_451_A3.pdf`: Final research report (LaTeX-formatted)
 
 ## Summary of Strategies
 
@@ -22,10 +22,10 @@ This project implements an automated trading system for ExxonMobil (XOM) using m
 > The extremely high Cumulative Return for the Options/Short (Realistic) strategy reflects optimistic assumptions (e.g., no slippage, margin constraints, or borrow costs) and is not realistic in practice.
 
 ## How to Run
-1. Open `MSDS451_Assignment3.ipynb` in Google Colab or a local Jupyter environment.
-2. Run all cells sequentially from top to bottom.
-3. Outputs (tables and plots) will be generated inline.
-4. No external datasets are required — the notebook downloads XOM price data directly from Yahoo Finance via `yfinance`.
+1. Open `MSDS451_A3.ipynb` in Google Colab or a local Jupyter environment
+2. Run all cells sequentially from top to bottom
+3. Outputs (tables and plots) will be generated inline
+4. No external datasets are required — the notebook downloads XOM price data directly from Yahoo Finance via `yfinance`
 
 ## Research Report
 The report (PDF) includes:
